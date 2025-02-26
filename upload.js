@@ -13,7 +13,7 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
     reader.onload = async function(event) {
         const media = event.target.result;
         const mime = file.type;
-        const githubToken = `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`; // https://github.com/settings/tokens
+        const githubToken = `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`; // https://github.com/settings/tokens
         const owner = 'Rapikzduar'; //nama pemilik repo
         const repo = 'yayaya'; // Nama repo tanpa URL
         const branch = 'main';
