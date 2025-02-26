@@ -13,9 +13,9 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
     reader.onload = async function(event) {
         const media = event.target.result;
         const mime = file.type;
-        const githubToken = `YOUR TOKEN`; // https://github.com/settings/tokens
-        const owner = 'YOUR GITHUB NAME'; //nama pemilik repo
-        const repo = 'YOUR REPO NAME'; // Nama repo tanpa URL
+        const githubToken = `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`; // https://github.com/settings/tokens
+        const owner = 'Rapikzduar'; //nama pemilik repo
+        const repo = 'yayaya'; // Nama repo tanpa URL
         const branch = 'main';
         let fileName = `${Date.now()}.${mime.split('/')[1]}`;
         let filePath = `uploads/${fileName}`;
